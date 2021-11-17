@@ -1,0 +1,127 @@
+html {
+  /* margin: 0; */
+  /* height: 100%; */
+}
+
+body {
+  background-color:#eceee8;
+  /* min-height: 100vh; */
+  /* margin: 0; */
+  /* width: 100%;
+   height: 1000px; */
+  /* background-image: url('https://thao-nguyen-design.github.io/project-1-emulation/background.png'); */
+  /* background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  /* text-align: center; */
+  /* border: 1px solid red; */
+}
+
+canvas {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.title-container {
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  /* padding-bottom: 1em; */
+  margin: 0;
+}
+
+.subtitle-container {
+  margin: auto;
+  text-align: left;
+  width: 51%;
+}
+
+.title2-container {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  /* padding-bottom: 0.5em; */
+  margin: 0;
+}
+
+.text-container {
+  /* padding: 40px; */
+  margin: auto;
+  text-align: left;
+  width: 50%;
+}
+
+
+#title {
+font-family: 'Lora', serif;
+font-size: 4.8em;
+  color: #2b2823;
+}
+
+
+#subtitle {
+  text-decoration: overline;
+
+  font-size: 2em;
+  color: #2f2b2c;
+  /* line-height: 1.7; */
+font-family: 'Lato', sans-serif;
+}
+
+#title2 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-size: 2.5em;
+  color: #2b2823;
+  font-family: 'Lora', serif;
+}
+
+#text {
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: #2f2b2c;
+font-family: 'Lato', sans-serif;  /* margin-bottom: 35px; */
+}
+
+.link-container {
+  position: relative;
+  /* width: 400px;
+  height: 200px; */
+  border: 1px solid #73AD21;
+}
+
+
+.bottomright {
+  position: absolute;
+   /* top: 80px; */
+   right: 0;
+   width: 9em;
+   /* height: 100px; */
+   border: 3px solid #73AD21;
+    /* border: 3px solid #73AD21; */
+  }
+
+  .topright {
+      position: fixed;
+      top: 1.5em;
+      right: 0;
+      width: 10em;
+
+    }
+
+a:link {
+  color: #2f2b2c;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2f2b2c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:
+    underline;
+}
