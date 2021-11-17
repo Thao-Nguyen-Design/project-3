@@ -1,7 +1,6 @@
 // import three JS
 import * as THREE from 'https://thao-nguyen-design.github.io/project-3/build/three.module.js';
 
-//import controls and loaders
 import {
   TrackballControls
 } from 'https://thao-nguyen-design.github.io/project-3/jsm/controls/TrackballControls.js';
