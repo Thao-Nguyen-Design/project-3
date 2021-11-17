@@ -1,14 +1,14 @@
 //copy of /script/script.js, but contain only the "book" model
 
 //import resources
-import * as THREE from 'https://thao-nguyen-design.github.io/project-3/build/three.model.js';
+import * as THREE from 'https://cdn.skypack.dev/three@<version>';
 
 import {
   TrackballControls
-} from 'https://thao-nguyen-design.github.io/project-3/src/TrackballControls.js';
+} from 'https://cdn.skypack.dev/three@<version>/examples/jsm/controls/TrackballControls.js';
 import {
   GLTFLoader
-} from "https://thao-nguyen-design.github.io/project-3/src/GLTFLoader.js";
+} from "https://cdn.skypack.dev/three@<version>/examples/jsm/loaders/GLTFLoader.js";
 
 let perspectiveCamera, controls, scene, renderer, book, group;
 
