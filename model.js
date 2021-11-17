@@ -1,14 +1,16 @@
 //copy of /script/script.js, but contain only the "book" model
 
 //import resources
-import * as THREE from 'https://cdn.skypack.dev/three@<version>';
+
+import * as THREE from "./build/three.module.js";
 
 import {
   TrackballControls
-} from 'https://cdn.skypack.dev/three@<version>/examples/jsm/controls/TrackballControls.js';
-import {
-  GLTFLoader
-} from "https://cdn.skypack.dev/three@<version>/examples/jsm/loaders/GLTFLoader.js";
+} from './src/TrackballControls.js';
+  import {
+    GLTFLoader
+  } from "./src/GLTFLoader.js";
+
 
 let perspectiveCamera, controls, scene, renderer, book, group;
 
