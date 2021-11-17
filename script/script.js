@@ -1,13 +1,13 @@
 // import three JS
-import * as THREE from '/build/three.module.js';
+import * as THREE from 'https://thao-nguyen-design.github.io/project-3/build/three.module.js';
 
 //import controls and loaders
 import {
   TrackballControls
-} from '/jsm/controls/TrackballControls.js';
+} from 'https://thao-nguyen-design.github.io/project-3/jsm/controls/TrackballControls.js';
 import {
   GLTFLoader
-} from "/src/GLTFLoader.js";
+} from "https://thao-nguyen-design.github.io/project-3/src/GLTFLoader.js";
 
 
 let perspectiveCamera, controls, scene, renderer, book, pages, group;
