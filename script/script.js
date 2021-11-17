@@ -1,5 +1,5 @@
 // import three JS
-import * as THREE from 'https://thao-nguyen-design.github.io/project-3/build/three.module.js';
+import * as THREE from 'https://cdn.skypack.dev/three@<version>';
 
 import {
   TrackballControls
