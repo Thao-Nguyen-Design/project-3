@@ -57,7 +57,7 @@ function init() {
 
   //load "book" model
   const loader1 = new GLTFLoader().load(
-    "/assets/book.glb",
+    "./assets/book.glb",
     function(gltf) {
 
       // set position and scale
@@ -91,7 +91,7 @@ function addGLTFmodel() {
   //create 300 objects of "page" model
   for (let i = 0; i < 300; i++) {
     loader2.load(
-      "/assets/page.glb",
+      "./assets/page.glb",
       function(gltf) {
         pages = gltf.scene;
         // pages.position.x = (Math.random() * 20 - 10) * 20;
