@@ -40,7 +40,7 @@ canvas {
 .title2-container {
   width: 100%;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
   /* padding-bottom: 0.5em; */
   margin: 0;
 }
@@ -89,17 +89,17 @@ font-family: 'Lato', sans-serif;  /* margin-bottom: 35px; */
   position: relative;
   /* width: 400px;
   height: 200px; */
-  border: 1px solid #73AD21;
+  border: 1px solid #2b2823;
 }
 
 
 .bottomright {
   position: absolute;
-   /* top: 80px; */
+   top: 1em;
    right: 0;
    width: 9em;
    /* height: 100px; */
-   border: 3px solid #73AD21;
+   /* border: 3px solid #2b2823; */
     /* border: 3px solid #73AD21; */
   }
 

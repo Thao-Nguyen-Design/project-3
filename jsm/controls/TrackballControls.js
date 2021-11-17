@@ -4,7 +4,7 @@ import {
 	Quaternion,
 	Vector2,
 	Vector3
-} from 'https://thao-nguyen-design.github.io/project-3/build/three.module.js';
+} from '/build/three.module.js';
 
 const _changeEvent = { type: 'change' };
 const _startEvent = { type: 'start' };
