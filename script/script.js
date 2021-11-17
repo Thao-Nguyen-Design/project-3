@@ -3,7 +3,7 @@ import * as THREE from '/build/three.module.js';
 
 import {
   TrackballControls
-} from '/jsm/controls/TrackballControls.js';
+} from '/src/TrackballControls.js';
 import {
   GLTFLoader
 } from "/src/GLTFLoader.js";
