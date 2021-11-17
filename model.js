@@ -1,14 +1,14 @@
 //copy of /script/script.js, but contain only the "book" model
 
 //import resources
-import * as THREE from '/build/three.module.js';
+import * as THREE from './build/three.module.js';
 
 import {
   TrackballControls
-} from '/src/TrackballControls.js';
+} from './src/TrackballControls.js';
 import {
   GLTFLoader
-} from "/src/GLTFLoader.js";
+} from "./src/GLTFLoader.js";
 
 let perspectiveCamera, controls, scene, renderer, book, group;
 
